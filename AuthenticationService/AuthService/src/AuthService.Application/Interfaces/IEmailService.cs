@@ -1,0 +1,13 @@
+using System;
+
+namespace AuthService.Application.Interfaces;
+
+public interface IEmailService
+{
+    Task SendEmailVerificationAsync(string email, string username, string token);
+    Task SendPasswordResetAsync(string email, string username, string token);
+    Task SendWelcomeEmailAsync(string email, string username);
+    Task SendPasswordChangeAsync(string email, string username);
+    Task SendAdminCreatedUserEmailAsync(string email, string username, string tempPassword, string verificationToken);
+    Task SendAccountDeletionConfirmationAsync(string email, string username, string token);
+}
