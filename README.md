@@ -1,7 +1,5 @@
 # ChapinBank - Gestion Bancaria
 
->**Nota**: Este proyecto está basado en un trabajo con nombre "Kinal Sports" desarrollado por Braulio Echeverría para el curso IN6AM - Kinal Guatemala. Se realizaron modificaciones con fines educativos.
-
 **Nota**:
 Link de Tablero de Trello:
 https://trello.com/invite/b/6973adeccd9207eab84a5ce7/ATTIec2272ff322f6b1ba95e92588739b0248479AF1E/sistema-bancario
